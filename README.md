@@ -6,3 +6,5 @@ The capacity must be a power of two (or it is rounded up to one), ensuring effic
 This implementation uses unsafe code and manual memory management — make sure to thoroughly test and audit before using it in critical production.
 
 > cargo run --release --example verify_perf
+
+> cargo run --release --example comparison
